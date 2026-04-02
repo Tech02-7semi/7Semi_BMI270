@@ -1,4 +1,4 @@
-# 📘 BMI270 7Semi Library
+# BMI270 7Semi Library
 
 This repository contains basic, well-documented examples for using the Bosch BMI270 IMU with an ESP32, using the 7Semi_BMI270 library.  
 
@@ -6,9 +6,9 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-## 🔌 Connection Guide
+## Connection Guide
 
-### 🟢 I2C Connection (Default & Recommended)
+### I2C Connection (Default & Recommended)
 
 | BMI270 Pin | ESP32 Pin | Notes             |
 |------------|-----------|-----------------|
@@ -30,9 +30,9 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-### 🔵 SPI Connection (Advanced)
+### SPI Connection (Advanced)
 
-⚠️ **Important:** BMI270 selects SPI or I2C at power-up. To force SPI mode, CS must be LOW during power-up.  
+ **Important:** BMI270 selects SPI or I2C at power-up. To force SPI mode, CS must be LOW during power-up.  
 
 **ESP32 VSPI Wiring:**  
 
@@ -53,9 +53,9 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-## ⚙️ Sensor Configuration
+## Sensor Configuration
 
-### 🧭 Accelerometer
+### Accelerometer
 
 **Output Data Rate (ODR):**  
 
@@ -89,7 +89,7 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-### 🔄 Gyroscope Options
+### Gyroscope Options
 
 **Output Data Rate (ODR):**  
 
@@ -118,14 +118,14 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-### ✅ Recommended Default Configuration
+### Recommended Default Configuration
 
 | Sensor        | ODR   | Range       | Bandwidth      |
 |---------------|-------|------------|----------------|
 | Accelerometer | 100 Hz | ±2G        | NORMAL_AVG4    |
 | Gyroscope     | 100 Hz | ±2000 dps  | NORMAL_MODE    |
 
-### 📈 Output Units
+### Output Units
 
 | Sensor        | Unit                  |
 |---------------|---------------------|
@@ -135,7 +135,7 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-## 🧪 Debug Tips
+## Debug Tips
 
 - **Wrong CHIP_ID?**  
   Expected value: 0x24. Check wiring and power.  
@@ -148,7 +148,7 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-## 🚀 Next Steps / Advanced Features
+## Next Steps / Advanced Features
 
 - FIFO burst reads  
 - Interrupt-driven data ready  
@@ -158,7 +158,7 @@ This repository contains basic, well-documented examples for using the Bosch BMI
 
 ---
 
-## 📄 License
+## License
 
 **MIT License** – This Arduino/C++ wrapper, examples, and documentation are released under the MIT License.  
 
